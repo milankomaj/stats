@@ -5,15 +5,15 @@
         #background {fill: #22272e;}
         .octicon {fill: #dbedff;}
         td { color: #3fb950;}
-        tc { color: #dbedff; margin-right: -1em;}
+        tc { color: #dbedff; margin-right: -1em; font-weight: lighter;}
         }
 
         /* Light mode */
         @media (prefers-color-scheme: light) {
         #background {fill: #f9f9fb;}
-        .octicon {fill: #6cb6ff;}
+        .octicon {fill: #3fb950;}
         td {color: #24292e;}
-        tc {color: #6cb6ff; margin-right: -1em;}
+        tc {color: #3fb950; margin-right: -1em; font-weight: lighter;}
         }
 svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
@@ -46,7 +46,7 @@ th {
   padding-top: 0;
   text-align: left;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bolder;
   color: #6cb6ff;
 }
 
