@@ -4,16 +4,16 @@
         @media (prefers-color-scheme: dark) {
         #background {fill: #22272e;}
         .octicon {fill: #dbedff;}
-        lang { color: #3fb950;}
-        percent { color: #dbedff;font-weight: lighter;}
+        .lang { color: #3fb950;}
+        .percent { color: #dbedff;font-weight: lighter;}
         }
 
         /* Light mode */
         @media (prefers-color-scheme: light) {
         #background {fill: #f9f9fb;}
         .octicon {fill: #3f8ae0;}
-        lang {color: #24292e;}
-        percent {color: #2ea44f;font-weight: lighter;}
+        .lang {color: #24292e;}
+        .percent {color: #2ea44f;font-weight: lighter;}
         }
 svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
