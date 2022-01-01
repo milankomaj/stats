@@ -1,5 +1,20 @@
 <svg width="360" height="210" xmlns="http://www.w3.org/2000/svg">
 <style>
+        /* Dark mode */
+        @media (prefers-color-scheme: dark) {
+        #background {fill: #22272e;}
+        .octicon {fill: #dbedff;}
+        lang { color: #3fb950;}
+        percent { color: #dbedff;font-weight: lighter;}
+        }
+
+        /* Light mode */
+        @media (prefers-color-scheme: light) {
+        #background {fill: #f9f9fb;}
+        .octicon {fill: #3f8ae0;}
+        lang {color: #24292e;}
+        percent {color: #2ea44f;font-weight: lighter;}
+        }
 svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-size: 14px;
@@ -9,7 +24,7 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
+
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
@@ -26,9 +41,8 @@ h2 {
   margin-bottom: 0.75em;
   line-height: 24px;
   font-size: 16px;
-  font-weight: 600;
-  color: rgb(36, 41, 46);
-  fill: rgb(36, 41, 46);
+  font-weight: bolder;
+  color: #6cb6ff;
 }
 
 ul {
@@ -85,13 +99,12 @@ div.ellipsis {
 }
 
 .lang {
-  font-weight: 600;
+  font-weight: 400;
   margin-right: 4px;
-  color: rgb(36, 41, 46);
 }
 
 .percent {
-  color: rgb(88, 96, 105)
+  
 }
 </style>
 <g>
@@ -104,7 +117,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #012456;width: 57.567%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 26.796%;" class="progress-item"></span><span style="background-color: #A97BFF;width: 7.530%;" class="progress-item"></span><span style="background-color: #e34c26;width: 6.937%;" class="progress-item"></span><span style="background-color: #563d7c;width: 0.652%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.518%;" class="progress-item"></span>
+<span style="background-color: #012456;width: 57.541%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 26.812%;" class="progress-item"></span><span style="background-color: #A97BFF;width: 7.535%;" class="progress-item"></span><span style="background-color: #e34c26;width: 6.941%;" class="progress-item"></span><span style="background-color: #563d7c;width: 0.652%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.518%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -116,7 +129,7 @@ div.ellipsis {
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">PowerShell</span>
-<span class="percent">57.57%</span>
+<span class="percent">57.54%</span>
 </li>
 
 
@@ -125,7 +138,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">JavaScript</span>
-<span class="percent">26.80%</span>
+<span class="percent">26.81%</span>
 </li>
 
 
