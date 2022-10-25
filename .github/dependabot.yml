@@ -12,7 +12,8 @@ updates:
       interval: "weekly"
       day: "friday"
       time: "11:00"
-
+    versioning-strategy: increase-if-necessary
+   
 # Set update schedule for GitHub Actions
   - package-ecosystem: "github-actions"
     open-pull-requests-limit: 10
